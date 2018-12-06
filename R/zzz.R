@@ -1,3 +1,3 @@
 .onAttach <- function(libname, pkgname){
-        packageStartupMessage("\n", logo,"\n",prompt, "\n")
+        packageStartupMessage(logo, "\tv ", packageVersion("mystic"), "\n\n",prompt, "\n")
 }

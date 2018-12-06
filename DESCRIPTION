@@ -4,7 +4,7 @@ Title: The Mystic Seer
 Version: 0.1.1
 Author: Siqi Zhang
 Maintainer: Siqi Zhang <iqis.gnahz@gmail.com>
-Description:  A machine that answers yes/no questions, especially helpful for users situated in the Twilight Zone.
+Description:  A machine that answers yes/no questions, very helpful in the Twilight Zone.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

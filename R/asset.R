@@ -17,6 +17,6 @@ cards <- c("It is quite possible.",
 prompt <- c("\task() me a YES or NO question\n\n",
             "\t * Does this Model Need more Attention?\n",
             "\t * Will My Paper be Accepted?\n",
-            "\t * Should I Call in Sick Tomorrow?\n")
+            "\t * Should I Call in Sick Tomorrow?")
 
 logo <- sapply(readLines(file("inst/misc/logo.txt")), function(x) paste0('\t', x, "\n"))

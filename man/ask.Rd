@@ -18,7 +18,7 @@ the answer (character string)
 The Mystic Seer produces an answer to your Yes/No question immediately.
 }
 \examples{
-ask("Should I go to New York City for my honeymoon?")
+ask("Will I leave for New York City soon?")
 ask("Did I get that promotion?")
 
 ask("Does this dataset contain all the secrets I need to know?", iris)

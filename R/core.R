@@ -6,7 +6,7 @@
 #' @param x an object pertaining to the question
 #' @return the answer (character string)
 #' @examples
-#' ask("Should I go to New York City for my honeymoon?")
+#' ask("Will I leave for New York City soon?")
 #' ask("Did I get that promotion?")
 #'
 #' ask("Does this dataset contain all the secrets I need to know?", iris)

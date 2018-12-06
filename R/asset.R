@@ -18,5 +18,3 @@ prompt <- c("\task() me a YES or NO question\n\n",
             "\t * Does the Manager like me?\n",
             "\t * Will My Paper be Accepted?\n",
             "\t * Is this Model good?")
-
-logo <- sapply(readLines(file("inst/misc/logo.txt")), function(x) paste0('\t', x, "\n"))

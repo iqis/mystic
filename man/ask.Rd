@@ -7,10 +7,22 @@
 ask(question, x)
 }
 \arguments{
-\item{question}{a question (character string) to which an answer is sought}
+\item{question}{a question (character string)}
 
 \item{x}{an object pertaining to the question}
 }
+\value{
+the answer (character string)
+}
 \description{
-The Mystic Seer will ponder your question before giving an answer; Best when used in the Twilight Zone.
+The Mystic Seer produces an answer to your Yes/No question immediately.
+}
+\examples{
+ask("Should I go to New York City for my honeymoon?")
+ask("Did I get that promotion?")
+
+ask("Does this dataset contain all the secrets I need to know?", iris)
+
+cars_model <- lm(dist ~ speed, data = cars)
+ask("Must I tweak this model some more?", cars_model)
 }

@@ -1,20 +1,26 @@
 #' Ask the Mystic Seer a question
 #'
-#' The Mystic Seer will ponder your question before giving an answer; Best when used in the Twilight Zone.
+#' The Mystic Seer produces an answer to your Yes/No question immediately.
 #'
-#' @examples
-#' ask(")
-#' ask("Is this a good data set to fiddle with?", iris)
-#' ask("Am I next in line for promotion?")
-#' @param question a question (character string) to which an answer is sought
+#' @param question a question (character string)
 #' @param x an object pertaining to the question
+#' @return the answer (character string)
+#' @examples
+#' ask("Should I go to New York City for my honeymoon?")
+#' ask("Did I get that promotion?")
+#'
+#' ask("Does this dataset contain all the secrets I need to know?", iris)
+#'
+#' cars_model <- lm(dist ~ speed, data = cars)
+#' ask("Must I tweak this model some more?", cars_model)
 #' @export
 ask <- function(question, x){
         question <- tolower(gsub("[\\?,]*\\s*", "", question))
         `if`(missing(x), x <- "", x <- as.character(substitute(x)))
+
         seed <- sum(strtoi(charToRaw(paste0(question,x)), 16L), as.numeric(Sys.Date()))
         set.seed(seed)
-        selected_card <- sample(cards, size = 1)
-        return(selected_card)
+
+        sample(cards, size = 1)
 }
 

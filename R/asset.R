@@ -15,6 +15,6 @@ cards <- c("It is quite possible.",
            "It all depends upon your point of view.")
 
 prompt <- c("\task() me a YES or NO question\n\n",
-            "\t * Does the Manager like me?\n",
+            "\t * Does the Manager Like Me?\n",
             "\t * Will My Paper be Accepted?\n",
-            "\t * Is this Model good?")
+            "\t * Is this Model any Good?")

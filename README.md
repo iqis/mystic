@@ -10,7 +10,7 @@ status](https://ci.appveyor.com/api/projects/status/github/iqis/mystic?branch=ma
 [![Travis build
 status](https://travis-ci.org/iqis/mystic.svg?branch=master)](https://travis-ci.org/iqis/mystic)
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 <!-- badges: end -->
 
 The Mystic Seer is a machine that answers yes/no questions.  

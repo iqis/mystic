@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/iqis/mystic?branch=master&svg=true)](https://ci.appveyor.com/project/iqis/mystic)
 [![Travis build status](https://travis-ci.org/iqis/mystic.svg?branch=master)](https://travis-ci.org/iqis/mystic)
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/#stable)
 <!-- badges: end -->
 
 The Mystic Seer is a machine that answers yes/no questions.    

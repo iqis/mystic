@@ -18,17 +18,8 @@ It is very helpful for common decision making scenarios, especially in
 the ourskirts of Twilight
 Zone.
 
-<center>
-
-<img src="http://www.mysticseer.com/images/twilightzone/twilightzonenickoftime3.jpg" alt="a typical use case" style="margin:0 auto">
-
-</center>
-
-<center>
-
-a typical use case
-
-</center>
+![](http://www.mysticseer.com/images/twilightzone/twilightzonenickoftime3.jpg)  
+*a typical use case*
 
 ## Installation
 

@@ -1,0 +1,59 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# mystic
+
+<!-- badges: start -->
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/iqis/mystic?branch=master&svg=true)](https://ci.appveyor.com/project/iqis/mystic)
+[![Travis build status](https://travis-ci.org/iqis/mystic.svg?branch=master)](https://travis-ci.org/iqis/mystic)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+<!-- badges: end -->
+
+The Mystic Seer is a machine that answers yes/no questions.    
+It is very helpful for common decision making scenarios, especially in the ourskirts of Twilight Zone.
+    
+<center><img src="http://www.mysticseer.com/images/twilightzone/twilightzonenickoftime3.jpg" alt="a typical use case" style="margin:0 auto"></center>
+<center>a typical use case</center>
+
+
+## Installation
+
+Install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("iqis/mystic")
+```
+## Ask the Mystic a Question
+
+You may summon the Mystic Seer whenever necessary.    
+It is, however, recommended that you keep `mystic` attached and ready for use in every R session.
+
+```{r }
+require(mystic)
+```
+
+You may then proceed to `ask()` a yes/no question...
+
+```{r}
+ask("Can I trust your advice?")
+```
+
+... in any language.
+
+```{r}
+ask("我们今天能离开这个地方吗？")
+```
+
+Try the Mystic Seer today, and see how your life gets easier!
